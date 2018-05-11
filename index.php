@@ -6,7 +6,9 @@
 
   </head>
   <body background="images/1.gif">
-    <audio src="sound/marcianito.mp3" preload="autoplay" controls></audio>
+    <audio src="sound/marcianito.mp3" autoplay loop>
+      <p>Tu navegador no implementa el elemento audio</p>
+    </audio>
     <form action="script.php" method="post">
       Nombre <input type="text" name="name"><br>
       Edad <select name="age">
